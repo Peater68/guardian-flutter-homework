@@ -1,0 +1,39 @@
+name: guardian
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^7.0.0
+  provider: ^5.0.0
+  equatable: ^2.0.0
+  moor_flutter: ^4.0.0
+  http: ^0.13.1
+  cached_network_image: ^3.0.0
+  json_annotation: ^4.0.1
+  get_it: ^6.1.1
+  dio: ^4.0.0
+  retrofit: 2.0.0-beta1
+  sqlite3_flutter_libs: ^0.4.1
+  path:
+  path_provider:
+  url_launcher: ^6.0.3
+
+dev_dependencies:
+  build_runner:
+  retrofit_generator: 2.0.0-beta3
+  moor_generator: ^4.2.2
+  json_serializable: ^4.1.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/guardian_logo.png
